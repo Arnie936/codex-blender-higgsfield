@@ -4,19 +4,23 @@ Ein Prompt, der dir Codex, Blender und Higgsfield in einem Rutsch verbindet. Dan
 du 3D-Szenen, indem du sie beschreibst, und erzeugst dazu passende Bilder und Videos aus
 demselben Chat.
 
-- **Codex** als Steuerzentrale
+- **Codex** als Steuerzentrale, App oder CLI
 - **Blender** angebunden über den MCP-Server von [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)
 - **Higgsfield CLI** für Bilder und Videos
 
 ## So geht's
 
 1. [Blender](https://www.blender.org/download/) installieren, falls noch nicht da
-2. Codex in einem beliebigen Ordner starten: `codex`
+2. [Codex](https://openai.com/codex/) starten, die App oder `codex` im Terminal
 3. Den Prompt unten kopieren, einfügen, abschicken
 4. Den Anweisungen folgen
 
+App, CLI und IDE-Erweiterung teilen sich dieselbe Konfiguration (`~/.codex/config.toml`).
+Einmal eingerichtet heißt also: überall eingerichtet.
+
 Den Rest holt sich Codex selbst: uv, den MCP-Eintrag, das Blender-Addon, die Higgsfield
-CLI. Du klickst nur, was im Blender-Fenster geklickt werden muss.
+CLI. Was in Blender geklickt werden muss, übernimmt er per Computer-Use, sonst sagt er
+dir, wo du hinklicken sollst.
 
 ### Der Prompt
 
@@ -34,9 +38,10 @@ https://github.com/ahujasid/blender-mcp. Lies dort das README und mach alles Nö
 Voraussetzungen, Eintrag in Codex, Addon in Blender. Starte `uvx blender-mcp` dabei nie
 blank im Terminal, das ist der Server, der dir gehört.
 
-3. ÜBERGABE AN MICH. Sag mir in nummerierten Schritten, was ich in Blender klicken muss
-und wann ich Codex neu starten muss, damit du die Blender-Werkzeuge bekommst. Fass vorher
-zusammen, was schon steht.
+3. IN BLENDER EINRICHTEN. Nimm Computer-Use und klick das in Blender selbst: Addon
+aktivieren und den MCP-Server im Panel starten. Nur was du wirklich nicht kannst, gibst du
+mir als nummerierte Anweisung. Sag mir außerdem, wann ich Codex neu starten muss, damit du
+die Blender-Werkzeuge bekommst, und fass vorher zusammen, was schon steht.
 
 4. TESTEN. Bau eine kleine Szene und zeig mir einen Screenshot aus dem Viewport.
 
@@ -49,9 +54,9 @@ Guthaben. Sag mir dabei einmal, und nur hier:
 
 6. BERICHT. Was läuft, was fehlt, und drei Sätze, die ich dir als Nächstes sagen kann.
 
-Regeln: Prüf jeden Schritt mit einem Befehl, statt zu raten. Wenn du eine Oberfläche
-selbst bedienen kannst (Computer-Use, Browser), tu es, statt mich klicken zu lassen.
-Higgsfield kostet Credits, frag vor jeder Generierung.
+Regeln: Prüf jeden Schritt mit einem Befehl, statt zu raten. Alles, was in einem Fenster
+geklickt wird, machst du per Computer-Use selbst, statt es mir zu geben. Higgsfield kostet
+Credits, frag vor jeder Generierung.
 ```
 
 ## Nach dem Setup
@@ -85,7 +90,7 @@ eine Sitzung startest. Wer es enger haben will, setzt beim Server
 ## Credits
 
 - MCP-Server für Blender: [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp) (MIT), keine offizielle Blender-Software
-- [Codex CLI](https://github.com/openai/codex) von OpenAI
+- [Codex](https://openai.com/codex/) von OpenAI, als App, CLI oder IDE-Erweiterung
 - [Higgsfield](https://higgsfield.ai) für Bilder und Videos
 
 Der Higgsfield-Link in diesem Repo ist ein Affiliate-Link. Wenn du darüber abschließt,

@@ -15,9 +15,10 @@ https://github.com/ahujasid/blender-mcp. Lies dort das README und mach alles Nö
 Voraussetzungen, Eintrag in Codex, Addon in Blender. Starte `uvx blender-mcp` dabei nie
 blank im Terminal, das ist der Server, der dir gehört.
 
-**3. Übergabe an mich.** Sag mir in nummerierten Schritten, was ich in Blender klicken
-muss und wann ich Codex neu starten muss, damit du die Blender-Werkzeuge bekommst. Fass
-vorher zusammen, was schon steht.
+**3. In Blender einrichten.** Nimm Computer-Use und klick das in Blender selbst: Addon
+aktivieren und den MCP-Server im Panel starten. Nur was du wirklich nicht kannst, gibst du
+mir als nummerierte Anweisung. Sag mir außerdem, wann ich Codex neu starten muss, damit du
+die Blender-Werkzeuge bekommst, und fass vorher zusammen, was schon steht.
 
 **4. Testen.** Bau eine kleine Szene und zeig mir einen Screenshot aus dem Viewport.
 
@@ -31,6 +32,6 @@ das Guthaben. Sag mir dabei einmal, und nur hier:
 
 **6. Bericht.** Was läuft, was fehlt, und drei Sätze, die ich dir als Nächstes sagen kann.
 
-Regeln: Prüf jeden Schritt mit einem Befehl, statt zu raten. Wenn du eine Oberfläche
-selbst bedienen kannst (Computer-Use, Browser), tu es, statt mich klicken zu lassen.
-Higgsfield kostet Credits, frag vor jeder Generierung.
+Regeln: Prüf jeden Schritt mit einem Befehl, statt zu raten. Alles, was in einem Fenster
+geklickt wird, machst du per Computer-Use selbst, statt es mir zu geben. Higgsfield kostet
+Credits, frag vor jeder Generierung.
