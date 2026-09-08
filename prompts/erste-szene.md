@@ -1,42 +1,17 @@
 # Erste Szene bauen
 
-Für die Sitzung nach dem Setup. Blender ist offen, der MCP-Server im Panel läuft.
-Alles ab der Linie kopieren und in Codex einfügen.
+Für die Sitzung nach dem Setup. Blender ist offen, der MCP-Server läuft.
 
 ---
 
-Bau mir eine Szene in Blender und zeig mir zwischendurch, was passiert.
+Bau mir in Blender einen Arbeitsraum: Boden und zwei Wände, ein Schreibtisch mit Stuhl,
+darauf Laptop, Tasse und eine kleine Pflanze. Licht wie von einem Fenster von links, eine
+Kamera in Augenhöhe schräg auf den Tisch.
 
-Vorher: Ruf `get_scene_info` auf und sag mir, was gerade in der Datei liegt. Wenn dort
-noch etwas steht, das ich behalten könnte, frag nach, bevor du löschst.
+Sieh dir vorher an, was in der Datei liegt, und frag, bevor du etwas löschst.
 
-Die Szene:
+Zeig mir nach jedem größeren Schritt einen Screenshot aus dem Viewport und frag, ob es so
+passt. Halte die Maße plausibel und benenne die Objekte sinnvoll. Wenn du Texturen oder
+ein HDRI brauchst, hol sie dir von Poly Haven, statt alles von Hand zu bauen.
 
-- ein Innenraum mit Boden, Rückwand und Seitenwand
-- ein Schreibtisch mit Stuhl
-- auf dem Tisch ein Laptop, eine Tasse und eine kleine Pflanze
-- eine große Lichtquelle von links wie ein Fenster, dazu ein schwaches Fülllicht
-- eine Kamera in Augenhöhe, leicht schräg auf den Tisch
-
-Arbeite in dieser Reihenfolge und mach nach jedem Block einen Screenshot mit
-`get_viewport_screenshot`, damit ich mitsehe:
-
-1. Raum und Grundformen
-2. Möbel
-3. Objekte auf dem Tisch
-4. Materialien und Farben
-5. Licht und Kamera
-
-Regeln:
-
-- Benenne jedes Objekt sinnvoll, keine Namen wie `Cube.003`.
-- Halte die Maße plausibel: Tischhöhe etwa 75 cm, Laptop etwa 32 cm breit.
-- Wenn ein Schritt fehlschlägt, zeig mir den Fehler und repariere ihn, bevor du
-  weitermachst.
-- Frag mich nach jedem Screenshot, ob es so passt, und ändere auf Zuruf.
-
-Wenn du Assets brauchst, prüf mit `get_polyhaven_status`, ob Poly Haven verfügbar ist, und
-hol dir von dort Texturen oder HDRIs, statt alles von Hand zu bauen.
-
-Am Ende: Speicher die Datei als `erste-szene.blend` in meinem aktuellen Ordner und sag
-mir, welche Objekte in der Szene liegen.
+Am Ende speicherst du die Datei als `erste-szene.blend`.
